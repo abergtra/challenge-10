@@ -1,28 +1,28 @@
 {
-    "name": "challenge-10",
-    "version": "1.0.0",
-    "description": "A command-line application that generates a team profile based on User Input by using Node.js, Inquirer, and Jest.",
-    "main": "index.js",
-    "directories": {
-      "lib": "lib",
-      "_tests_": "_tests_",
-      "dist": "dist",
-      "src": "src"
-    },
-    "dependencies": {
-      "email-validator": "^2.0.4",
-      "inquirer": "^8.1.1",
-      "jest": "^27.0.5"
-    },
-    "scripts": {
-        "start": "node index.js",
-        "test": "jest"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/abergtra/challenge-10.git"
-    },
-    "author": "Asher Bergtraun",
-    "license": "ISC"
-  }
-  
+  "name": "challenge-10",
+  "version": "1.0.0",
+  "description": "A command-line application that generates a team profile based on User Input by using Node.js, Inquirer, and Jest.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "_tests_": "_tests_",
+    "dist": "dist",
+    "src": "src"
+  },
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "inquirer": "^8.1.1",
+    "jest": "^27.0.5",
+    "util": "^0.12.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abergtra/challenge-10.git"
+  },
+  "author": "Asher Bergtraun",
+  "license": "ISC"
+}
