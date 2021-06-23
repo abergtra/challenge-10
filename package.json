@@ -1,29 +1,28 @@
 {
-    "name": "teambuilder",
+    "name": "challenge-10",
     "version": "1.0.0",
-    "description": "",
+    "description": "A command-line application that generates a team profile based on User Input by using Node.js, Inquirer, and Jest.",
     "main": "index.js",
     "directories": {
-      "lib": "lib"
+      "lib": "lib",
+      "_tests_": "_tests_",
+      "dist": "dist",
+      "src": "src"
     },
     "dependencies": {
       "email-validator": "^2.0.4",
-      "inquirer": "^7.3.3",
-      "jest": "^26.2.2"
+      "inquirer": "^8.1.1",
+      "jest": "^27.0.5"
     },
-    "devDependencies": {},
     "scripts": {
-      "test": "jest"
+        "start": "node index.js",
+        "test": "jest"
     },
     "repository": {
       "type": "git",
       "url": "git+https://github.com/abergtra/challenge-10.git"
     },
-    "author": "Grant",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/abergtra/challenge-10/issues"
-    },
-    "homepage": "https://github.com/abergtra/challenge-10#readme"
+    "author": "Asher Bergtraun",
+    "license": "ISC"
   }
   
