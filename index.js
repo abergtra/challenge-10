@@ -76,14 +76,52 @@ async function prompt() {
                     name: "role",
                     message: "Select a role:",
                     choices: [
-                        "Employee",
                         "Engineer",
                         "Intern",
                         "Manager"
                     ]
                 },
-
             ]);
+
+            let followUP = "";
+
+            if (response.role === "Engineer") {
+                followUP = await inquirer.prompt([{
+                    type: "input",
+                    name: "github",
+                    message: "What is this engineer's GitHub username?",
+                    validate: function validateName(name){
+                        return name !== "";
+                    },
+                },]);
+
+                const engineer = new Engineer(response.name, response.id, response.email, followUP.github);
+                teamArr.push(engineer);
+            } else if (response.role === "Intern") {
+                followUP = await inquirer.prompt([{
+                    type: "input",
+                    name: "school",
+                    message: "What school is this intern attending?",
+                    validate: function validateName(name){
+                        return name !== "";
+                    },
+                },]);
+
+                const intern = new Intern(response.name, response.id, response.email, followUP.school);
+                teamArr.push(intern);
+            } else if (response.role === "Manager") {
+                followUP = await inquirer.prompt([{
+                    type: "input",
+                    name: "office",
+                    message: "What is the manager's office number?",
+                    validate: function validateName(name){
+                        return name !== "";
+                    },
+                },]);
+
+                const manager = new Manager(response.name, response.id, response.email, followUP.school);
+                teamArr.push(manager);
+            }
 
         } catch (err) {
             return console.log(err);
@@ -102,3 +140,5 @@ async function prompt() {
     //rerun the prompts if user has more data to enter
     while (teamCompleteUI.finish === "Yes");
 }
+
+main();
