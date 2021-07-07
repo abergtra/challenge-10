@@ -67,7 +67,7 @@ async function prompt() {
                     message: "Please provide an email address: ",
                     //email validator used
                     validate: function validateName(name) {
-                        return nvalidator.validate(name);
+                        return validator.validate(name);
                     }
                 },
                 {
