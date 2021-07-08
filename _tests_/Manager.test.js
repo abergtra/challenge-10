@@ -1,5 +1,6 @@
 const Manager = require('../lib/Manager');
 
+//Test if each object and function work by setting value and evaluating after running script
 test("Set Office", () => {
     const testValue = "5";
     const employee = new Manager("Asher", 1, "asher@gmail.com", testValue);

@@ -1,5 +1,6 @@
 const Intern = require("../lib/Intern");
 
+//Test if each object and function work by setting value and evaluating after running script
 test("Set School", () => {
     const testValue = "University of the Pacific";
     const employee = new Intern("Asher", 1, "asher@gmail.com", testValue);
