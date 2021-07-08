@@ -1,4 +1,4 @@
-const generateHTML = function (teamString) {
+const generateHTML = function (teamStr) {
     return `
     <!DOCTYPE html>
     <html lang="en">

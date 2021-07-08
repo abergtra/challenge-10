@@ -118,7 +118,7 @@ async function prompt() {
                     },
                 },]);
 
-                const manager = new Manager(response.name, response.id, response.email, followUP.school);
+                const manager = new Manager(response.name, response.id, response.email, followUP.office);
                 teamArr.push(manager);
             }
 
