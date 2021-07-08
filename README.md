@@ -7,6 +7,8 @@
 
   ![HTML Example](./assets/example-html.png)
 
+  Follow this [link](https://github.com/abergtra/challenge-10) for the GitHub repository and this [link](https://abergtra.github.io/challenge-10/) for the live URL.
+
   # Table of Contents 
   * [Installation](#-Installation)
   * [Usage](#-Usage)
@@ -23,6 +25,8 @@
 
   ![Functionality Walkthrough](./assets/functionality-walkthrough.gif)
   
+  A video walkthrough is also available if you follow this [link](https://youtu.be/Dtcn1Cj4O5M).
+
   # License 
   [License: MIT](https://opensource.org/licenses/MIT) 
     * As this list provided is not comprehensive, if you need another license, contact the author for additional options. 
@@ -33,8 +37,11 @@
   
   # Tests
   To run the 4 Test Suites, run the "npm run test" command in the integrated terminal after installation is complete. See gif below of tests passing:
+
   ![Test Passing](./assets/test-passing.gif)
   
+  A video walkthrough is also available if you follow this [link](https://youtu.be/dyfzwXsNpI4).
+
   # Questions
   * GitHub Username: abergtra
   * Contact Email: asher.bergtraun@gmail.com
