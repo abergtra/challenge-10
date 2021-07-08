@@ -11,3 +11,9 @@ test("Get Role function", () => {
     const employee = new Manager("Asher", 1, "asher@gmail.com", testValue);
     expect(employee.getRole()).toBe(testValue);
 })
+
+test("Get Office function", () => {
+    const testValue = "5";
+    const employee = new Manager("Asher", 1, "asher@gmail.com", testValue);
+    expect(employee.getOffice()).toBe(testValue);
+});

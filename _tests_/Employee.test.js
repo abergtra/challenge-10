@@ -28,7 +28,7 @@ test('Get name from getName', () => {
 test('Get ID from getId', () => {
     const testId = "1315"
     const employee = new Employee("Asher", testId);
-    expect(employee.getId()).toBe(testId);
+    expect(employee.getID()).toBe(testId);
 });
 test('Get email from getEmail', () => {
     const testEmail = "asher@gmail.com"

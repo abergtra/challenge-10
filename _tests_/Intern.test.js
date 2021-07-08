@@ -13,7 +13,7 @@ test("Get Role function", () => {
 })
 
 test("Get School", () => {
-    const testValue = "University of North Carolina at Wilmington";
+    const testValue = "University of the Pacific";
     const employee = new Intern("Asher", 1, "asher@gmail.com", testValue);
     expect(employee.getSchool()).toBe(testValue);
 });

@@ -17,7 +17,6 @@ let teamStr = ``;
 
 //use util to convert async funtions to promises 
 const writeHTML = util.promisify(fs.writeFile);
-const appendHTML = util.promisify(fs.appendFile);
 
 //Main Function 
 async function main() {
